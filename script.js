@@ -51,5 +51,3 @@ const products = document.querySelectorAll('.fade-left');
   }, { threshold: 0.2 });
 
   products.forEach(el => observer3.observe(el));
-
-
